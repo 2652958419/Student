@@ -1,7 +1,7 @@
 package entity;
 /**
  * 用户类
- * @author 田先生
+ * @author 童先生
  *
  */
 public class User {

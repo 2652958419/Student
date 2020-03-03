@@ -40,7 +40,7 @@ public class UserServlet extends HttpServlet {
 		//所有这里我们需要对这个数据进行强转（包装类）
 		int age = Integer.parseInt(req.getParameter("age"));
 		user.setName(name);
-		//调用实体类中的settter方法为私有的属性赋值
+		//调用实体类中的setter方法为私有的属性赋值
 		user.setAge(age);
 		us.save(user);
 	}
